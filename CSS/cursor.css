@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+    font-size: 40px;
+    font-weight: 900;
+  }
+</style>
+<body>
+  <div>
+    <h1>CSS CURSOR</h1>
+    <p> This property is used to define the type of mouse cursor when the mouse 
+      pointer is on the elemtnt
+    </p>
+    <ul>
+      <li>alias</li>
+      <li>auto</li>
+      <li>all-scroll</li>
+      <li>cell</li>
+      <li>context-menu</li>
+      <li>default</li>
+      <li>copy</li>
+      <li>crosshair</li>
+      <li>e-resize</li>
+      <li>n-resize</li>
+      <li>w-resize</li>
+      <li>Row-resize</li>
+      <li>Se-resize</li>
+      <li>move</li>
+      <li>help</li>
+      <li>none</li>
+      <li>wait</li>
+      <li>zoom-in</li>
+      <li>zoom-out</li>
+      <li>url</li>
+    </ul>
+  </div>
+
+  <p>Move your cursor over the b elow words</p>
+  <div style="cursor:copy">COPY</div>
+  <div style="cursor:wait">WAIT</div>
+  <div style="cursor:help">HELP</div>
+  <div style="cursor:progress">PROGRESS</div>
+  <div style="cursor:zoom-in">ZOOM-IN</div>
+</body>
+</html>
