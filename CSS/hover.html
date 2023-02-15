@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+      font-size: 60px;
+      color: black;
+    }
+    h1:hover{
+     color:red;
+     font-size: 40px;
+    }
+    .empty_div{
+      height: 500px;
+      background-color: green;
+    }
+    .empty_div:hover{
+      background-color: blue;
+    }
+
+    .container{
+      position: relative;
+      width: 50%;
+      max-width: 300px;
+    }
+
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .ijan__overlay{
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.2);
+      width: 100%;
+      opacity: 0;
+      transition: .60s ease;
+      font-size: 25px;
+      padding: 20px;
+      color: white;
+    }
+
+    .container:hover .ijan__overlay{
+      opacity: 1.5;
+    }
+
+    .empty_image_div{
+      height: 600px;
+      background-image: url(images/ijanBg/my_image.jpg);
+    }
+
+    .empty_image_div:hover{
+      background-image: url(images/ogun.PNG);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>CSS HOVER</h1>
+    The css hover selector is for selecting the elemsnts 
+     when the mouse move over them . 
+
+     <a href="https://google.com">LINK TO SOMETHING</a>
+     <div class="empty_div"></div>
+  </div>
+
+  <div class="container">
+      <img src="images/ijanBG/my_image.jpg" alt="test inage" />
+      <div class="ijan__overlay"> Welcome to Nigeria</div>
+  </div>
+
+
+  <div class="empty_image_div">
+
+  </div>
+</body>
+</html>
