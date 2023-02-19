@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+
+
+.ijan__navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+   
+}
+.ijan__list{
+    float: left;
+    border-right: 2px solid red;
+
+}
+.ijan__list a{
+    display: block;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.ijan__list a:hover{
+    background-color: white;
+    color: black;
+}
+.ijan_active{
+    background-color: yellow;
+    color: red !important;
+}
+
