@@ -1,0 +1,49 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.s xcnmader{
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    max-width: 150px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.site-header::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+.site-identity{
+    float:left;
+}
+
+.site-identity h1{
+    font-size: 1.5em;
+    margin: .7em 0.3em 0;
+    display: inline-block;
+}
+
+.site-navigation{
+    float: right;
+
+}
+
+.site-navigation ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
