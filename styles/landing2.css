@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: crimson;
+    height: 80px;
+    /* line-height: 80px; */
+    width: 100%;
+}
+
+.nav__menus{
+    float: right;
+    margin-right: 20px;
+    /* line-height: 80px; */
+}
+
+.nav__menus li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+    
+}
+
+.nav__menus li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 7px 13px;
+}
+
+
+.hero__banner{
+    height: 600px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero/bashcom.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-weight: 700;
+
+}
+
+
+
+
+
+nav img{
+    width: 150px;
+}
+
+.hero__banner__text{
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 5%;
+}
+
+.hero__banner__text h3, .hero__banner__text p {
+    color: white;
+}
+
+.hero__banner__text h3{
+    font-size: 45px;
+}
+
+.hero__banner__text p{
+    font-size: 24px;
+}
+
+.hero__button{
+    padding: 20px 60px;
+    text-transform: uppercase;
+    border-radius: 0px 0px 30px 0px;
+}
+
+/* SERVICE CONTAINER */
+
+.service__container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.service__item{
+    height: 300px ;
+    margin: 50px;
+    text-align: center;
+}
+
+.bash_service_image{
+    width: 100px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+   
+}
+
+footer li{
+   list-style-type: none;
+   padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
