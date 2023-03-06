@@ -1,0 +1,31 @@
+body{
+   margin: 0px;
+   padding: 0px;
+
+}
+
+.inec__wrapper{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+}
+
+.inec__wrapper div{
+    background-color: #ffffff;
+    width: 25%;
+    margin: 10px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+}
+
+.inec__wrapper div:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inec__wrapper button{
+    background-color: green;
+    border: none;
+    padding: 10px 30px;
+}

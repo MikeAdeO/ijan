@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.konga__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.konga__sub__container img{
+    width: 200px;
+}
+
+.konga__sub__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+/* .konga__container__item{
+    flex: 1;
+} */
+
+.konga__hero{
+    width: 900px;
+}
+
+.konga__sub__2 , .konga__sub__1{
+    margin: 5px;
+    /* padding: 10px; */
+}
+
+.konga__sub__1 img{
+    padding : 10px;
+}
+
+
+.konga__sub__2 img{
+    padding : 10px;
+}
