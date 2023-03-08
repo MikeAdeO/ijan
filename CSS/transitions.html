@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ijan__transition{
+            width: 400px;
+            height: 400px;
+            background-color: orange;
+
+            transition: width 1s, background-color 1s;
+        }
+
+        .ijan__transition:hover{
+            width: 800px;
+            background-color: blue;
+        }
+
+        /*   MULTIPLE TRANSITION  */
+        .ijan__transition__2{
+            padding: 15px;
+            width: 400px;
+            height: 400px;
+            background-color: violet;
+            transition: width 2s, height 3s;
+        }
+
+        .ijan__transition__2:hover{
+            width: 700px;
+            height: 500px;
+        }
+
+        /* image */
+
+        .ijan__logo{
+            width: 400px;
+            transition: width 1s;
+        }
+        .ijan__logo:hover{
+            width: 600px;
+        }
+
+        /* TIMING FUNCTION */
+
+        #linear, #ease, #ease-in, #ease-out {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin: 10px;
+        }
+
+        #linear:hover, #ease:hover, #ease-in:hover, #ease-out:hover {
+            width: 800px;
+        }
+
+        #linear{
+            transition-timing-function: linear;
+        }
+
+        #ease{
+            transition-timing-function: ease;
+            transition-delay: 1s;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS TRANSITIONS</h1>
+    <p>
+        CSs transitions are effects that are added to change the element
+        gradually from one style to another 
+    </p>
+    <ul>
+        <li>THE CSS property  on which you want to add an effect</li>
+        <li>The time durattion of the effect</li>
+    </ul>
+
+
+    <!-- EXAMPLE -->
+
+
+    <div class="ijan__transition">
+        <p> Watch this container change when you hover </p>
+    </div>
+
+    <!-- MULTIPLE TRANSITION EFFECT -->
+
+    <div class="ijan__transition__2">
+        <b>IJAN MULTPLE TRANSITION</b>
+        <p>Move your cursor on me to the effect</p>
+    </div>
+
+
+    <!-- IMAGE TRANSITIONS -->
+    <div>
+        <img src="/images/Logo/fblogo.jpg" alt="Facebook logo" class="ijan__logo">
+    </div>
+
+
+    <ul>
+        <li>transition</li>
+        <li>transition-delay</li>
+        <li>transition-duration</li>
+        <li>transition-property</li>
+        <li>transition-timing-function 
+            <ul>
+                <li>ease : specifie the effect with a slow start then fast end</li>
+                <li>linear:  specifies a transition effect  with the same
+                    speed from to start to end
+                </li>
+                <li>ease-in</li>
+                <li>ease-out</li>
+                <li>ease-in-out</li>
+                <li>cubic-bezier(n,n,n,n)</li>
+
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Transtion TIming FUnction -->
+    <div id="linear">LINEAR</div>
+    <div id="ease">ease</div>
+    <div id="ease-in">ease-in</div>
+    <div id="ease-out">ease-out</div>
+
+</body>
+</html>
