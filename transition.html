@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #ijan{
+            width: 500px;
+            height: 600px;
+            background-color: red;
+            transition: background-color 3s;
+        }
+
+        #ijan:hover{
+            background-color: green;
+        }
+        .navbar{
+            background-color: purple;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+        }
+
+        .navbar a{
+            padding: 5px 20px ;
+            margin: 0px 20px;
+            color: white;
+            text-decoration: none;
+            border-bottom: none;
+            transition: padding 1s;
+        }
+
+        .navbar a:hover{
+          border-bottom:   1px solid white;
+          padding: 0px 20px;
+        }
+
+        .top-nav{
+            height: 60px;
+           
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+        }
+
+        .top-nav-address{
+            display: flex;
+            flex-direction: row;
+         
+          
+        }
+        .top-nav-address div{
+            margin: 0px 10px;
+            border-left: 2px solid white;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+<!-- first header -->
+<div class="top-nav">
+    <div class="top-nav-item top-nav-address">
+        <div>
+            <p>info@bash.com</p>
+        </div>
+        <div>
+            <p>+234-809-0000-000</p>
+        </div>
+        <div>
+            <p>01,Lagos Island, Nigeria</p>
+        </div>
+    </div>
+    <div class="top-nav-item top-nav-address">
+        <div>
+            <p>info@bash.com</p>
+        </div>
+        <div>
+            <p>+234-809-0000-000</p>
+        </div>
+        <div>
+            <p>01,Lagos Island, Nigeria</p>
+        </div>
+    </div>
+</div>
+
+<!-- second header -->
+    <div class="navbar">
+        <p>IJAN LOGO</p>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+</header>
+    <div id="ijan">
+        <h1>HELOOOO HELLOO</h1>
+        <p>
+            Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. 
+            Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus.
+        </p>
+    </div>
+    <br />
+    <br />
+
+    <footer style="background-color:red; height:400px">
+        <div >
+           <ul>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+           </ul>
+        </div>
+        <div style="height:20px;">
+            <p>copyright 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
