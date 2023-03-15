@@ -1,0 +1,76 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+
+header{
+    /* width: 100%; */
+    overflow: hidden;
+    padding: 0px 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav p{
+    color: #c4bebe;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+nav i{
+    font-size: 30px;
+}
+
+.hero__banner__section{
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/hero/landing__three__hero.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero__banner__item h3{
+    font-size: 40px;
+    color: white;
+}
+
+.strtegy__container{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+}
+
+.strategy_box{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy_box i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
