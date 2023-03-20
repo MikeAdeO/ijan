@@ -159,3 +159,88 @@ body{
 .signature div{
     margin: 0 auto;
 }
+
+/* service sstyles */
+
+.service_section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    background-color: #E8EAEE;
+    height: 1200px;
+}
+
+.image__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image__container .image__container__item{
+    /* width: 25%; */
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/konstruck/servic_1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+.image__settings{
+    position: absolute;
+    height: 20%;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+
+.image__settings div{
+    font-size: 30px;
+    background-color: #F7940F;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image__settings p{
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+/* .image__container__item img{
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+} */
+
+.what__we__do{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.what__we__do i{
+    color: #F7940F;
+}
+
+.what__we__do p{
+    padding: 0px 10px; 
+}
+
+.develop_h3{
+    font-size:40px;
+}
