@@ -193,6 +193,34 @@ body{
     position: relative;
  
 }
+
+.overlay{
+
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition:  .5s  ease;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image__container__item:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
 .image__settings{
     position: absolute;
     height: 20%;
