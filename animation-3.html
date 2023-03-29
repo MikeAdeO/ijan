@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 3</title>
+    <style>
+        .ij_1{
+            animation-name: my_animation;
+            animation-duration: 2s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+            width: 300px;
+            height: 100px;
+            border-radius: 10px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @keyframes my_animation{
+            from{
+                background-color: #ff7a59;
+                width: 300px;
+                top: 10px;
+            }
+            to{
+                background-color: #33475b;
+                width: 50px;
+                top: 100px;
+            }
+        }
+
+        .ij_2{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            animation-name: my_2;
+            animation-duration: 10s;
+           /* animation-direction: alternate;
+            animation-iteration-count: infinite; */
+            animation-timing-function:linear;
+
+        }
+        @keyframes my_2{
+            from{
+                top: 0;
+                left: 0%;
+            }
+            to{
+                top: 0;
+                left: 50%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ij_1"></div>
+
+    <div class="ij_2"></div>
+</body>
+</html>
