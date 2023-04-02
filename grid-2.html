@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background-color: pink;
+        column-gap: 50px;
+        padding: 10px;
+      }
+
+      .item{
+        background-color: white;
+        margin: 10px;
+      }
+
+      .container_2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+
+      .container_2_item img{
+        width: 100%;
+      }
+      header{
+        display: grid;
+        background-color: darkblue;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 80px;
+        color: white;
+      }
+
+      .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 300px 100px;
+        background-color: black;
+        grid-gap: 10px;
+        padding: 20px;
+        justify-content: center;
+      }
+
+      .num{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lightgrey;
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 30px;
+      }
+
+      .item_9{
+        grid-area: myArea;
+      }
+
+      .grid-container{
+        display: grid;
+        grid-template-areas: 'myArea myArea . . .';
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+
+      .grid-container > div{
+         background-color: rgba(255, 255, 255, 0.8);
+         text-align: center;
+         padding: 10px 0px;
+         font-size: 30px;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+        <div>LOGO</div>
+        <div>
+            <a href="#">HOME</a>
+            <a href="#">HOME</a>
+            <a href="#">HOME</a>
+            <a href="#">HOME</a>
+        </div>
+        <div>
+            SUBSCRIBE
+        </div>
+
+    </header>
+    <div class="container">
+      <div class="item">
+        <h2>1</h2>
+      </div>
+      <div class="item">
+        <h2>2</h2>
+      </div>
+      <div class="item">
+        <h2>3</h2>
+      </div>
+      <div class="item">
+        <h2>4</h2>
+      </div>
+      <div class="item">
+        <h2>5</h2>
+      </div>
+      <div class="item">
+        <h2>6</h2>
+      </div>
+      <div class="item">
+        <h2>7</h2>
+      </div>
+      <div class="item">
+        <h2>8</h2>
+      </div>
+      <div class="item">
+        <h2>9</h2>
+      </div>
+    </div>
+    <!-- EXAMPLE 2 -->
+    <div class="container_2">
+        <div class="container_2_item">
+            <img src="/images/sections/team__work.jpg" alt="support" />
+        </div>
+        <div class="container_2_item">
+            <h3>We are the best</h3>
+            <p>Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum
+                Lorem Ipsum Lorem Ipsumv
+            </p>
+        </div>
+    </div>
+
+    <h3> Properties of GRid</h3>
+    <ul>
+        <li>grid-template-columns: It is used to specify the sizes of the column</li>
+        <li>grid-template-rows: it is used to specify the row size</li>
+        <li>grid-template-areas: it is used to sepecify the grid layout  by using the named items</li>
+        <li>grid-auto-rows : it is used to specify the the automatic size of rows</li>
+        <li>grid-auto-columns:  it is used to specify the automatic size of columns</li>
+        <li>grid-auto-flow:  it is used to specify how to place  auto-placed items 
+            and automatic row size
+        </li>
+        
+    </ul>
+
+    <div class="main">
+        <div class="num">1</div>
+        <div class="num">2</div>
+        <div class="num">3</div>
+        <div class="num">4</div>
+        <div class="num">5</div>
+        <div class="num">6</div>
+        <div class="num">7</div>
+        <div class="num">8</div>
+        <div class="num">9</div>
+
+    </div>
+
+    <!-- EXAMPLE GRID TEMPLATE AREAS -->
+    <div class="grid-container">
+        <div class="item_1">1</div>
+        <div class="item_2">2</div>
+        <div class="item_3">3</div>
+        <div class="item_4">4</div>
+        <div class="item_5">5</div>
+        <div class="item_6">6</div>
+        <div class="item_7">7</div>
+        <div class="item_8">8</div>
+        <div class="item_9">9</div>
+    </div>
+  </body>
+</html>

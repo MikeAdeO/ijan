@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 70px;
+    background-color: darkmagenta;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Segoe UI' sans-serif;
+    color: white;
+}
+
+.menu{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 10px;
+}
+
+.sign_up{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px 7px;
+}
+
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.service_item{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/hero/bashcom.jpg);
+    background-position: center;
+    background-size: contain;
+    color: white;
+}
+
+.service_item__header{
+    font-size: 28px;
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    background-color: darkmagenta;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    font-family: 'Pacifico', cursive;
+}
