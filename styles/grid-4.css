@@ -1,0 +1,48 @@
+body{
+    margin: 40px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.content{
+    grid-area: content;
+}
+
+.header{
+    grid-area: header;
+}
+
+.sidebar2{
+    grid-area: sidebar2;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20% 50% 20%;
+    grid-template-rows: 60px 700px 60px ;
+    grid-template-areas: 
+    "header header header"
+     "sidebar content sidebar2"
+      "footer footer footer";
+    background-color: #fff;
+    color: #444;
+}
+
+.box{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+}
+
+.header, .footer{
+    background-color: #999;
+}
