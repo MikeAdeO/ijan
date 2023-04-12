@@ -1,0 +1,29 @@
+/* Extra small screen devices(pphones , 600px below */
+@media only screen and (max-width:600px){
+    /* ALL your css */
+}
+
+/* Small devices (portrait tablests and large phone . 600px and above) */
+@media only screen and (min-width:600px){
+    /* ALL YoUR CSS */
+}
+
+/* Medium scrreens , landscape tablest, 768px */
+@media only screen and (min-width:768px){
+    /* ALL YoUR CSS */
+}
+
+/* Large devices , laptops/desktops */
+@media only screen and (min-width:992px){
+    /* ALL YoUR CSS */
+}
+
+/* Extra large scrrens */
+@media only screen and (min-width:1200px){
+    /* ALL YoUR CSS */
+}
+
+
+@media only screen and (min-width:3000px){
+    /* ALL YoUR CSS */
+}

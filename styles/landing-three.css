@@ -74,3 +74,11 @@ nav i{
     height: 50px;
     border-radius: 50%;
 }
+
+/*CSS MEDIA QUERIES */
+
+@media (max-width: 600px){
+    body{
+        background-color: red;
+    }
+}

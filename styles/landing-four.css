@@ -5,7 +5,7 @@ body{
 
 .top__nav{
     height: 60px;
-    background-color: #010D14;
+    background-color: #1181c2;
     width: 100%;
     color: #ffffff;
     display: flex;
@@ -170,6 +170,7 @@ body{
     width: 100%;
     background-color: #E8EAEE;
     height: 1200px;
+    position: relative;
 }
 
 .image__container{
@@ -304,4 +305,90 @@ position: absolute;
     height: 20%;
 
 
+}
+
+
+/* Extra small screen devices(pphones , 600px below */
+@media only screen and (max-width:600px){
+    .top__nav{
+       visibility: hidden;
+    }
+
+    .lower__nav{
+        display: none;
+        height: 600px;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .lower__nav a{
+        display: block;
+        padding: 20px 0px;
+       
+       }
+
+       .about__section{
+        height: 600px;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .about__section__item{
+        width: 100%;
+    }
+    .develop_h3{
+        font-size:20px;
+        color: white;
+    }
+
+    
+
+.what__we__do i{
+    color: #ffffff;
+}
+
+.what__we__do p{
+    padding: 0px 10px; 
+    color: white;
+}
+
+.service_section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    background-color: #E8EAEE;
+    height: 1000px;
+}
+
+
+  
+}
+
+/* Small devices (portrait tablests and large phone . 600px and above) */
+@media only screen and (min-width:600px){
+    /* ALL YoUR CSS */
+}
+
+/* Medium scrreens , landscape tablest, 768px */
+@media only screen and (min-width:768px){
+    /* ALL YoUR CSS */
+}
+
+/* Large devices , laptops/desktops */
+@media only screen and (min-width:992px){
+    /* ALL YoUR CSS */
+}
+
+/* Extra large scrrens */
+@media only screen and (min-width:1200px){
+    /* ALL YoUR CSS */
+}
+
+
+@media only screen and (min-width:3000px){
+    /* ALL YoUR CSS */
 }

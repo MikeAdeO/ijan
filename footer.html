@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: row;
+            height: 600px;
+            justify-content: center;
+            align-items: center;
+        }
+        .main div{
+            width: 25%;
+            background-color: green;
+            height: 400px;
+            margin: 10px;
+        }
+
+        .footer_1{
+            display: flex;
+            flex-direction: row;
+            height: 200px;
+            background-color: gray;
+            justify-content: space-around;
+            align-content: center;
+        }
+
+        .footer_2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            height: 600px;
+            background-color: black;
+            color: white;
+        }
+        .ijan_btn{
+            background-color: red;
+            padding: 10px 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .ijan_btn div p{
+            line-height: 0;
+        }
+
+        .ijan_btn i{
+            font-size: 60px;
+        }
+
+        .ijan_btn:hover{
+            background-color: purple;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .empty_search{
+            font-family: fontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="search">
+        <form>
+            <div>
+                <input type="text" class="empty_search" placeholder="&#xF002;" />
+                <button type="submit">submit</button>
+            </div>
+        </form>
+
+    </div>
+    <section>
+        <div class="main">
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+        </div>
+        <footer>
+            <div class="footer_1">
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+            </div>
+            <!-- footer two -->
+            <div class="footer_2">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>
+                        <a href="https://google.com" target="_blank">
+                        <button class="ijan_btn">
+                            <i class="fa fa-home"></i>
+
+                            <div>
+                            <p>Walk with me</p>
+                            <p>APPLE</p>
+                        </div>
+                        </button>
+                    </a>
+                    </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
