@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .parent__ijan{
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .child{
+            background-color: rgb(57, 20, 20);
+            height: 300px;
+            width: 25%;
+            margin: 10px;
+            color: white;
+        }
+
+        @media screen and (max-width:600px){
+            .parent__ijan{
+                flex-direction: column;
+                background-color: yellow;
+                width: 100%;
+            }
+
+            .child{
+                background-color: blanchedalmond;
+                width: 85%;
+            }
+        }
+
+        @media screen and (min-width:600px){
+            .parent__ijan{
+                flex-direction: row;
+                background-color: green;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+            .child{
+                width: 30%;
+            }
+        }
+
+        @media only screen and (min-width:992px){
+            .parent__ijan{
+                flex-direction: row;
+                background-color: purple;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+            .child{
+                width: 25%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="parent__ijan">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <style>
+        .sample__grid{
+           /* display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            grid-gap: 5px;*/
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            width: 100%;
+        }
+
+        .product__container{
+            font-size: 30px;
+            padding: 10px;
+            margin: 10px;
+            color: #fff;
+            background-color: #1c87c9;
+            text-align: center;
+            width: 25%;
+        }
+
+        .product__container img{
+            width: 100px;
+        }
+
+        @media screen and (max-width:600px){
+            .product__container{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sample__grid">
+        <!-- children -->
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <div class="product__container">
+            <img src="/images/services/ijan_service_1.png" alt="sample" />
+            <div class="product__text">
+                <p>Product Name</p>
+                <p>$400</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
