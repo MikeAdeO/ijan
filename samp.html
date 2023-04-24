@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<style>
+    .main__body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(176, 176, 200);
+    
+    }
+
+    .section__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .section__item{
+        background-color: rgb(219, 203, 203);
+        width: 20%;
+        height: 400px;
+        margin: 10px;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+        width: 100%;
+        height: 400px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/*mobile responsive */
+
+@media screen and (max-width: 700px){
+    .section__container{
+        
+        flex-direction: column;
+        
+        
+    }
+    .section__item{
+      
+        width: 80%;
+       
+    }
+
+    .footer__container{
+        
+        flex-direction: column;
+    }
+}
+</style>
+<body>
+    <div>
+       <h1> HEADER NAVBAR</h1>
+    </div>
+    <div class="main__body">
+        <div class="section__container">
+            <!-- ABOUT SECTION -->
+            <div class="section__item">1</div>
+            <div class="section__item">2</div>
+            <div class="section__item">2</div>
+            <div class="section__item">2</div>
+        </div>
+        <div class="section__container">
+            <!-- Service SECTION -->
+            <div class="section__item">1</div>
+            <div class="section__item">2</div>
+            <div class="section__item">3</div>
+            <div class="section__item">3</div>
+        </div>
+        <div class="section__container">
+            <!-- FAQS SECTION -->
+            <div class="section__item">1</div>
+            <div class="section__item">2</div>
+            <div class="section__item">3</div>
+            <div class="section__item">4</div>
+        </div>
+    </div>
+    <div class="footer__container">
+            <ul>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+            </ul>
+            <ul>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+            </ul>
+            <ul>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+            </ul>
+            <ul>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+                <li>123</li>
+            </ul>
+    </div>
+
+</body>
+</html>
